@@ -1,4 +1,4 @@
-# 🐾 DeskCat (Comnyang)
+# 🐾 DeskCat
 
 > Your adorable, animated desktop pet companion for Windows that reacts to typing, mouse interactions, file drops, and external AI agents!
 

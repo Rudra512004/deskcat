@@ -204,7 +204,7 @@ class DeskCat:
         self.trigger_message("Purr...", duration=2)
 
     def pin_note(self):
-        note = simpledialog.askstring("Pin Note", "What should Comnyang hold?", parent=self.root)
+        note = simpledialog.askstring("Pin Note", "What should DeskCat hold?", parent=self.root)
         if note:
             self.show_note = True
             self.note_text = note
