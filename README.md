@@ -38,7 +38,21 @@ Appearance settings are saved persistently in `config.json`.
 
 ## 🚀 Getting Started
 
-### Option 1: Python Version (Recommended)
+### ⚡ Quick Start (Windows Standalone .exe - No Setup Required)
+
+The fastest way to get DeskCat on your computer:
+
+1. **Download**:
+   - [**⬇️ Download deskcat.exe (Direct Download)**](https://github.com/Rudra512004/deskcat/raw/main/release/deskcat.exe)
+   - Or browse [GitHub Releases](https://github.com/Rudra512004/deskcat/releases)
+2. **Install & Run**:
+   - Save `deskcat.exe` anywhere on your computer (e.g. `Downloads`, `Desktop`, or a custom folder).
+   - Double-click `deskcat.exe` to launch immediately!
+   - *(Optional)* Right-click the cat and select **"Toggle Start with Windows"** to have DeskCat automatically launch on system startup.
+
+---
+
+### Option 2: Run from Python Source
 
 1. **Clone the repository**:
    ```bash
@@ -70,7 +84,7 @@ Appearance settings are saved persistently in `config.json`.
 
 ---
 
-### Option 2: Electron Version
+### Option 3: Electron Version
 
 An alternative web-technologies implementation (HTML5 / CSS / uiohook) is also included:
 
