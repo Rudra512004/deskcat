@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeskCat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Container for the cat, this is the clickable/draggable area -->
+  <div class="cat-container" id="cat-container">
+    <div class="message-bubble hidden" id="message-bubble">Meow!</div>
+    <div class="steam-container hidden" id="steam-container">
+      <div class="steam steam-1"></div>
+      <div class="steam steam-2"></div>
+      <div class="steam steam-3"></div>
+    </div>
+    <div class="cat" id="cat">
+      <div class="tail"></div>
+      <div class="body">
+        <div class="paw front-left"></div>
+        <div class="paw front-right"></div>
+        <div class="paw back-left"></div>
+        <div class="paw back-right"></div>
+      </div>
+      <div class="head" id="head">
+        <div class="ear left"></div>
+        <div class="ear right"></div>
+        <div class="face">
+          <div class="eye left" id="eye-left"><div class="pupil"></div></div>
+          <div class="eye right" id="eye-right"><div class="pupil"></div></div>
+          <div class="nose"></div>
+          <div class="mouth"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

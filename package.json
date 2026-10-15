@@ -1,0 +1,20 @@
+{
+  "name": "deskcat",
+  "version": "1.0.0",
+  "description": "A desktop pet for Windows",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "desktop-pet",
+    "electron"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^42.4.0",
+    "express": "^5.2.1",
+    "uiohook-napi": "^1.5.5"
+  }
+}
